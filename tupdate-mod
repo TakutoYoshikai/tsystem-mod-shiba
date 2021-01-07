@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd ~/workspace/shiba
+git pull origin master &
+cd elemental-sight
+git pull origin master &
+cd ../trident
+git pull origin master &
+
+wait
